@@ -1,0 +1,14 @@
+{
+  "time_stop": {
+    "subtitle": "sounds.zawatchudo/time_stop",
+    "sounds":[
+      "zawatchudo:time_stop"
+    ]
+  },
+  "time_resume": {
+    "subtitle": "sounds.zawatchudo/time_resume",
+    "sounds":[
+      "zawatchudo:time_resume"
+    ]
+  }
+}
