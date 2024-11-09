@@ -1,6 +1,14 @@
 {
   "item.zawatchudo.frozen_watch": "Frozen Watch",
-  "item.zawatchudo.the_watch": "The Watch",
+  "item.zawatchudo.the_watch": "The Watch Tier I",
+  "item.zawatchudo.the_watch_2": "The Watch Tier II",
+  "item.zawatchudo.the_watch_3": "The Watch Tier III",
+  "item.zawatchudo.the_watch_4": "The Watch Tier IV",
+  "item.zawatchudo.the_watch_5": "The Watch Tier V",
+  "item.zawatchudo.the_watch_6": "The Watch Tier VI",
+  "item.zawatchudo.the_watch_7": "The Watch Tier VII",
+  "item.zawatchudo.the_watch_8": "The Watch Tier VIII",
+  "item.zawatchudo.the_watch_oh": "The Watch Over Heaven",
   "sounds.zawatchudo/time_stop": "The Watch Activated",
   "sounds.zawatchudo/time_resume": "The Watch Deactivated"
 }

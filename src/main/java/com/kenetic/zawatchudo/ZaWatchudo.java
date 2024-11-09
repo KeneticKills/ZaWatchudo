@@ -4,7 +4,9 @@ import com.kenetic.zawatchudo.item.ModItems;
 import com.kenetic.zawatchudo.item.custom.ModItemProperties;
 import com.kenetic.zawatchudo.sound.ModSounds;
 
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Item;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -63,6 +65,14 @@ public class ZaWatchudo
 
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
             event.accept(ModItems.DaWatch);
+            event.accept(ModItems.DaWatchT2);
+            event.accept(ModItems.DaWatchT3);
+            event.accept(ModItems.DaWatchT4);
+            event.accept(ModItems.DaWatchT5);
+            event.accept(ModItems.DaWatchT6);
+            event.accept(ModItems.DaWatchT7);
+            event.accept(ModItems.DaWatchT8);
+            event.accept(ModItems.DaWatchOverHeaven);
         }
 
     }

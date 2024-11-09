@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0" : "zawatchudo:item/the_watch_6"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "zawatchudo:active": 1
+      },
+      "model": "zawatchudo:item/the_watch_6_active"
+    }
+  ]
+}
