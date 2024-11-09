@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "NCN",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "N": {
+      "item": "minecraft:snow_block"
+    },
+    "C": {
+      "item": "zawatchudo:the_watch_1"
+    }
+  },
+  "result": {
+    "id": "zawatchudo:the_watch_2",
+    "count": 1
+  }
+}

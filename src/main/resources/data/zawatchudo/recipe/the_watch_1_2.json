@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "NCS",
+    "WWW"
+  ],
+  "key": {
+    "S": {
+      "tag": "minecraft:sand"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "N": {
+      "item": "minecraft:snow_block"
+    },
+    "W": {
+      "tag": "minecraft:logs_that_burn"
+    }
+  },
+  "result": {
+    "id": "zawatchudo:the_watch_1",
+    "count": 1
+  }
+}

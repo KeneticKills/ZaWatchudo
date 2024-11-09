@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "NCN",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:emerald_block"
+    },
+    "N": {
+      "item": "minecraft:blue_ice"
+    },
+    "C": {
+      "item": "zawatchudo:the_watch_5"
+    }
+  },
+  "result": {
+    "id": "zawatchudo:the_watch_6",
+    "count": 1
+  }
+}

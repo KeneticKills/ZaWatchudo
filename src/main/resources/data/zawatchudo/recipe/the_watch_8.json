@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "SCS",
+    "#N#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz_block"
+    },
+    "S": {
+      "item": "zawatchudo:frozen_watch"
+    },
+    "C": {
+      "item": "zawatchudo:the_watch_7"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "zawatchudo:the_watch_8",
+    "count": 1
+  }
+}

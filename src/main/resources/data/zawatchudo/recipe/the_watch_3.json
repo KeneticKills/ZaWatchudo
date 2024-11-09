@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "NCN",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:snow_block"
+    },
+    "C": {
+      "item": "zawatchudo:the_watch_2"
+    }
+  },
+  "result": {
+    "id": "zawatchudo:the_watch_3",
+    "count": 1
+  }
+}

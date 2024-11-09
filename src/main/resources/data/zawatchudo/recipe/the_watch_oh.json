@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#O#",
+    "SCS",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "O": {
+      "item": "minecraft:ominous_trial_key"
+    },
+    "S": {
+      "item": "zawatchudo:frozen_watch"
+    },
+    "C": {
+      "item": "zawatchudo:the_watch_8"
+    },
+    "D": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "id": "zawatchudo:the_watch_oh",
+    "count": 1
+  }
+}

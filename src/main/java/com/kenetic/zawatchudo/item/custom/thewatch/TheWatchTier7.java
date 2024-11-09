@@ -74,7 +74,7 @@ public class TheWatchTier7 extends Item {
             player.getCooldowns().addCooldown(DaWatchOverHeaven.get(),40);
             level.playSound(null, player.getOnPos(), ModSounds.timeStop.get(), SoundSource.PLAYERS);
         } else {
-            player.getCooldowns().addCooldown(DaWatchOverHeaven.get(),200);
+            player.getCooldowns().addCooldown(DaWatchOverHeaven.get(),40);
             level.playSound(null, player.getOnPos(), ModSounds.timeResume.get(), SoundSource.PLAYERS);
         }
 

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "NCN",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "N": {
+      "item": "zawatchudo:frozen_watch"
+    },
+    "C": {
+      "item": "zawatchudo:the_watch_6"
+    }
+  },
+  "result": {
+    "id": "zawatchudo:the_watch_7",
+    "count": 1
+  }
+}

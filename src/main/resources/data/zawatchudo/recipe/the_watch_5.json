@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GBG",
+    "NCN",
+    "GBG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    },
+    "N": {
+      "item": "minecraft:blue_ice"
+    },
+    "C": {
+      "item": "zawatchudo:the_watch_4"
+    }
+  },
+  "result": {
+    "id": "zawatchudo:the_watch_5",
+    "count": 1
+  }
+}
