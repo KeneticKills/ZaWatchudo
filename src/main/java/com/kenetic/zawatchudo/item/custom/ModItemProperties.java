@@ -24,5 +24,7 @@ public class ModItemProperties {
                 ((stack, level, entity, seed) -> TheWatchTier7.getActive() ? 1 : 0));
         ItemProperties.register(ModItems.DaWatchT8.get(), ResourceLocation.fromNamespaceAndPath(ZaWatchudo.MODID,"active"),
                 ((stack, level, entity, seed) -> TheWatchTier8.getActive() ? 1 : 0));
+        ItemProperties.register(ModItems.DaWatchOverHeaven.get(), ResourceLocation.fromNamespaceAndPath(ZaWatchudo.MODID,"active"),
+                ((stack, level, entity, seed) -> TheWatchOverHeaven.getActive() ? 1 : 0));
     }
 }

@@ -10,17 +10,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledFuture;
-import java.util.concurrent.TimeUnit;
-
 import static com.kenetic.zawatchudo.item.ModItems.DaWatchOverHeaven;
 
 public class TheWatchOverHeaven extends Item {
 
-    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
-    private static ScheduledFuture<?> endTask; // Store the scheduled end task
     private static boolean isActive = false;
 
     public TheWatchOverHeaven(Properties properties) {
@@ -36,10 +29,6 @@ public class TheWatchOverHeaven extends Item {
 
         if(level.tickRateManager().isFrozen()){
             isActive = setTimeStop(level,player,10,false);
-
-            if (endTask != null && !endTask.isDone()) {
-                endTask.cancel(true); // Cancel the task if it's still pending
-            }
         }
         else {
             isActive = setTimeStop(level,player,2f,true);
@@ -54,9 +43,6 @@ public class TheWatchOverHeaven extends Item {
 
     public static void setActive(boolean active){
         isActive = active;
-        if (endTask != null && !endTask.isDone() && !active) {
-            endTask.cancel(true); // Cancel the task if it's still pending
-        }
     }
 
     private boolean setTimeStop(Level level, Player player,float Cooldown,boolean timeStop){
@@ -70,7 +56,7 @@ public class TheWatchOverHeaven extends Item {
             player.getCooldowns().addCooldown(DaWatchOverHeaven.get(),40);
             level.playSound(null, player.getOnPos(), ModSounds.timeStop.get(), SoundSource.PLAYERS);
         } else {
-            player.getCooldowns().addCooldown(DaWatchOverHeaven.get(),200);
+            player.getCooldowns().addCooldown(DaWatchOverHeaven.get(),40);
             level.playSound(null, player.getOnPos(), ModSounds.timeResume.get(), SoundSource.PLAYERS);
         }
 
